@@ -1,0 +1,1244 @@
+    Blocking waiting for file lock on package cache
+   0.222495100s  INFO prepare_target{force=false package_id=Unzip_file v0.1.0 (C:\Users\HP\Desktop\Rust\Unzip_file) target="Unzip_file"}: cargo::core::compiler::fingerprint: fingerprint error for Unzip_file v0.1.0 (C:\Users\HP\Desktop\Rust\Unzip_file)/Check { test: false }/TargetInner { name: "Unzip_file", doc: true, ..: with_path("C:\\Users\\HP\\Desktop\\Rust\\Unzip_file\\src\\main.rs", Edition2024) }
+   0.222648900s  INFO prepare_target{force=false package_id=Unzip_file v0.1.0 (C:\Users\HP\Desktop\Rust\Unzip_file) target="Unzip_file"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\Unzip_file-295b36f7e651138c\bin-Unzip_file`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.256096200s  INFO prepare_target{force=false package_id=zip v0.6.6 target="zip"}: cargo::core::compiler::fingerprint: fingerprint error for zip v0.6.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("zip", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zip-0.6.6\\src\\lib.rs", Edition2021) }
+   0.256186500s  INFO prepare_target{force=false package_id=zip v0.6.6 target="zip"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\zip-df7addfb614d4897\lib-zip`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.258445200s  INFO prepare_target{force=false package_id=aes v0.8.4 target="aes"}: cargo::core::compiler::fingerprint: fingerprint error for aes v0.8.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("aes", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aes-0.8.4\\src\\lib.rs", Edition2021) }
+   0.258504200s  INFO prepare_target{force=false package_id=aes v0.8.4 target="aes"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\aes-7a969b5933b727e3\lib-aes`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.259942100s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint: fingerprint error for cfg-if v1.0.4/Check { test: false }/TargetInner { ..: lib_target("cfg_if", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cfg-if-1.0.4\\src\\lib.rs", Edition2018) }
+   0.260010300s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\cfg-if-d0202b3c1f745d2b\lib-cfg_if`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.261463900s  INFO prepare_target{force=false package_id=cipher v0.4.4 target="cipher"}: cargo::core::compiler::fingerprint: fingerprint error for cipher v0.4.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cipher", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cipher-0.4.4\\src\\lib.rs", Edition2021) }
+   0.261516900s  INFO prepare_target{force=false package_id=cipher v0.4.4 target="cipher"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\cipher-afc436609d189e3d\lib-cipher`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.263557600s  INFO prepare_target{force=false package_id=crypto-common v0.1.7 target="crypto_common"}: cargo::core::compiler::fingerprint: fingerprint error for crypto-common v0.1.7/Check { test: false }/TargetInner { ..: lib_target("crypto_common", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crypto-common-0.1.7\\src\\lib.rs", Edition2018) }
+   0.263619500s  INFO prepare_target{force=false package_id=crypto-common v0.1.7 target="crypto_common"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\crypto-common-4c7f8e07e19a998c\lib-crypto_common`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.265355600s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="generic_array"}: cargo::core::compiler::fingerprint: fingerprint error for generic-array v0.14.7/Check { test: false }/TargetInner { ..: lib_target("generic_array", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\generic-array-0.14.7\\src\\lib.rs", Edition2015) }
+   0.265452200s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="generic_array"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\generic-array-c65ca8bfcb166544\lib-generic_array`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.270525400s  INFO prepare_target{force=false package_id=typenum v1.20.1 target="typenum"}: cargo::core::compiler::fingerprint: fingerprint error for typenum v1.20.1/Check { test: false }/TargetInner { ..: lib_target("typenum", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\typenum-1.20.1\\src\\lib.rs", Edition2018) }
+   0.270576000s  INFO prepare_target{force=false package_id=typenum v1.20.1 target="typenum"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\typenum-90368bfc231befa9\lib-typenum`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.272377100s  INFO prepare_target{force=false package_id=inout v0.1.4 target="inout"}: cargo::core::compiler::fingerprint: fingerprint error for inout v0.1.4/Check { test: false }/TargetInner { ..: lib_target("inout", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\inout-0.1.4\\src\\lib.rs", Edition2021) }
+   0.272441400s  INFO prepare_target{force=false package_id=inout v0.1.4 target="inout"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\inout-3a636e39a5c3c735\lib-inout`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.274253500s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint: fingerprint error for cpufeatures v0.2.17/Check { test: false }/TargetInner { ..: lib_target("cpufeatures", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cpufeatures-0.2.17\\src\\lib.rs", Edition2018) }
+   0.274311100s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\cpufeatures-fadd5f432dde5b0e\lib-cpufeatures`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.275686700s  INFO prepare_target{force=false package_id=byteorder v1.5.0 target="byteorder"}: cargo::core::compiler::fingerprint: fingerprint error for byteorder v1.5.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("byteorder", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\byteorder-1.5.0\\src\\lib.rs", Edition2021) }
+   0.275732400s  INFO prepare_target{force=false package_id=byteorder v1.5.0 target="byteorder"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\byteorder-f2f78878c5a173e0\lib-byteorder`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.277141200s  INFO prepare_target{force=false package_id=bzip2 v0.4.4 target="bzip2"}: cargo::core::compiler::fingerprint: fingerprint error for bzip2 v0.4.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("bzip2", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bzip2-0.4.4\\src\\lib.rs", Edition2015) }
+   0.277194800s  INFO prepare_target{force=false package_id=bzip2 v0.4.4 target="bzip2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\bzip2-4ab8fd59738390b4\lib-bzip2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.278742500s  INFO prepare_target{force=false package_id=bzip2-sys v0.1.13+1.0.8 target="bzip2_sys"}: cargo::core::compiler::fingerprint: fingerprint error for bzip2-sys v0.1.13+1.0.8/Check { test: false }/TargetInner { ..: lib_target("bzip2_sys", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bzip2-sys-0.1.13+1.0.8\\lib.rs", Edition2015) }
+   0.278791200s  INFO prepare_target{force=false package_id=bzip2-sys v0.1.13+1.0.8 target="bzip2_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\bzip2-sys-ca4aa981b4d5bf6f\lib-bzip2_sys`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.289689700s  INFO prepare_target{force=false package_id=libc v0.2.186 target="libc"}: cargo::core::compiler::fingerprint: fingerprint error for libc v0.2.186/Check { test: false }/TargetInner { ..: lib_target("libc", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libc-0.2.186\\src\\lib.rs", Edition2021) }
+   0.289746200s  INFO prepare_target{force=false package_id=libc v0.2.186 target="libc"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\libc-569ed3e1e05f48d7\lib-libc`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.292838900s  INFO prepare_target{force=false package_id=constant_time_eq v0.1.5 target="constant_time_eq"}: cargo::core::compiler::fingerprint: fingerprint error for constant_time_eq v0.1.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("constant_time_eq", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\constant_time_eq-0.1.5\\src\\lib.rs", Edition2015) }
+   0.292903700s  INFO prepare_target{force=false package_id=constant_time_eq v0.1.5 target="constant_time_eq"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\constant_time_eq-7f78fee882746e27\lib-constant_time_eq`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.294183300s  INFO prepare_target{force=false package_id=crc32fast v1.5.0 target="crc32fast"}: cargo::core::compiler::fingerprint: fingerprint error for crc32fast v1.5.0/Check { test: false }/TargetInner { ..: lib_target("crc32fast", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crc32fast-1.5.0\\src\\lib.rs", Edition2021) }
+   0.294234500s  INFO prepare_target{force=false package_id=crc32fast v1.5.0 target="crc32fast"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\crc32fast-02dbb2cd1cbb8eb5\lib-crc32fast`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.298529700s  INFO prepare_target{force=false package_id=flate2 v1.1.9 target="flate2"}: cargo::core::compiler::fingerprint: fingerprint error for flate2 v1.1.9/Check { test: false }/TargetInner { ..: lib_target("flate2", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\flate2-1.1.9\\src\\lib.rs", Edition2018) }
+   0.298614800s  INFO prepare_target{force=false package_id=flate2 v1.1.9 target="flate2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\flate2-f81a797ee4d8a0df\lib-flate2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.300872700s  INFO prepare_target{force=false package_id=miniz_oxide v0.8.9 target="miniz_oxide"}: cargo::core::compiler::fingerprint: fingerprint error for miniz_oxide v0.8.9/Check { test: false }/TargetInner { ..: lib_target("miniz_oxide", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\miniz_oxide-0.8.9\\src\\lib.rs", Edition2021) }
+   0.300924500s  INFO prepare_target{force=false package_id=miniz_oxide v0.8.9 target="miniz_oxide"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\miniz_oxide-3a037360b1e20760\lib-miniz_oxide`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.302687900s  INFO prepare_target{force=false package_id=adler2 v2.0.1 target="adler2"}: cargo::core::compiler::fingerprint: fingerprint error for adler2 v2.0.1/Check { test: false }/TargetInner { ..: lib_target("adler2", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\adler2-2.0.1\\src\\lib.rs", Edition2021) }
+   0.302736300s  INFO prepare_target{force=false package_id=adler2 v2.0.1 target="adler2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\adler2-99e50a3f3d387414\lib-adler2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.304190000s  INFO prepare_target{force=false package_id=simd-adler32 v0.3.9 target="simd_adler32"}: cargo::core::compiler::fingerprint: fingerprint error for simd-adler32 v0.3.9/Check { test: false }/TargetInner { ..: lib_target("simd_adler32", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\simd-adler32-0.3.9\\src\\lib.rs", Edition2018) }
+   0.304246700s  INFO prepare_target{force=false package_id=simd-adler32 v0.3.9 target="simd_adler32"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\simd-adler32-33fd926f69cf2301\lib-simd_adler32`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.305683900s  INFO prepare_target{force=false package_id=hmac v0.12.1 target="hmac"}: cargo::core::compiler::fingerprint: fingerprint error for hmac v0.12.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hmac", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hmac-0.12.1\\src\\lib.rs", Edition2018) }
+   0.305727300s  INFO prepare_target{force=false package_id=hmac v0.12.1 target="hmac"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\hmac-1b68f6c2975f8977\lib-hmac`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.307361400s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint: fingerprint error for digest v0.10.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\digest-0.10.7\\src\\lib.rs", Edition2018) }
+   0.307417300s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\digest-a1bd0e7597054830\lib-digest`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.308886500s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint error for block-buffer v0.10.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\block-buffer-0.10.4\\src\\lib.rs", Edition2018) }
+   0.308931200s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\block-buffer-925ad51adc25efb5\lib-block_buffer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.310374700s  INFO prepare_target{force=false package_id=subtle v2.6.1 target="subtle"}: cargo::core::compiler::fingerprint: fingerprint error for subtle v2.6.1/Check { test: false }/TargetInner { ..: lib_target("subtle", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\subtle-2.6.1\\src\\lib.rs", Edition2018) }
+   0.310428400s  INFO prepare_target{force=false package_id=subtle v2.6.1 target="subtle"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\subtle-1c6fad40dc25706f\lib-subtle`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.311925500s  INFO prepare_target{force=false package_id=pbkdf2 v0.11.0 target="pbkdf2"}: cargo::core::compiler::fingerprint: fingerprint error for pbkdf2 v0.11.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("pbkdf2", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pbkdf2-0.11.0\\src\\lib.rs", Edition2021) }
+   0.311972500s  INFO prepare_target{force=false package_id=pbkdf2 v0.11.0 target="pbkdf2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\pbkdf2-9fa35576de0ca3ad\lib-pbkdf2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.313825300s  INFO prepare_target{force=false package_id=password-hash v0.4.2 target="password_hash"}: cargo::core::compiler::fingerprint: fingerprint error for password-hash v0.4.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("password_hash", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\password-hash-0.4.2\\src\\lib.rs", Edition2021) }
+   0.313885000s  INFO prepare_target{force=false package_id=password-hash v0.4.2 target="password_hash"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\password-hash-38d2a0232aff8e6f\lib-password_hash`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.315261200s  INFO prepare_target{force=false package_id=base64ct v1.8.3 target="base64ct"}: cargo::core::compiler::fingerprint: fingerprint error for base64ct v1.8.3/Check { test: false }/TargetInner { ..: lib_target("base64ct", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\base64ct-1.8.3\\src\\lib.rs", Edition2024) }
+   0.315340900s  INFO prepare_target{force=false package_id=base64ct v1.8.3 target="base64ct"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\base64ct-8443620248424c82\lib-base64ct`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.317168800s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint: fingerprint error for rand_core v0.6.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_core", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_core-0.6.4\\src\\lib.rs", Edition2018) }
+   0.317226900s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\rand_core-dfb85c6d9c1a5a6c\lib-rand_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.318921300s  INFO prepare_target{force=false package_id=sha2 v0.10.9 target="sha2"}: cargo::core::compiler::fingerprint: fingerprint error for sha2 v0.10.9/Check { test: false }/TargetInner { ..: lib_target("sha2", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha2-0.10.9\\src\\lib.rs", Edition2018) }
+   0.318970800s  INFO prepare_target{force=false package_id=sha2 v0.10.9 target="sha2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\sha2-983d13a8f33b9d1d\lib-sha2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.320634200s  INFO prepare_target{force=false package_id=sha1 v0.10.6 target="sha1"}: cargo::core::compiler::fingerprint: fingerprint error for sha1 v0.10.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha1", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha1-0.10.6\\src\\lib.rs", Edition2018) }
+   0.320712000s  INFO prepare_target{force=false package_id=sha1 v0.10.6 target="sha1"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\sha1-a7543e294f2f0a40\lib-sha1`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.322216800s  INFO prepare_target{force=false package_id=time v0.3.49 target="time"}: cargo::core::compiler::fingerprint: fingerprint error for time v0.3.49/Check { test: false }/TargetInner { benched: false, ..: lib_target("time", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\time-0.3.49\\src\\lib.rs", Edition2024) }
+   0.322261700s  INFO prepare_target{force=false package_id=time v0.3.49 target="time"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\time-6cb76369a34e5876\lib-time`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.324096800s  INFO prepare_target{force=false package_id=deranged v0.5.8 target="deranged"}: cargo::core::compiler::fingerprint: fingerprint error for deranged v0.5.8/Check { test: false }/TargetInner { ..: lib_target("deranged", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\deranged-0.5.8\\src\\lib.rs", Edition2021) }
+   0.324172000s  INFO prepare_target{force=false package_id=deranged v0.5.8 target="deranged"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\deranged-ede0a43853c0e4f2\lib-deranged`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.326006100s  INFO prepare_target{force=false package_id=num-conv v0.2.2 target="num_conv"}: cargo::core::compiler::fingerprint: fingerprint error for num-conv v0.2.2/Check { test: false }/TargetInner { ..: lib_target("num_conv", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-conv-0.2.2\\src\\lib.rs", Edition2021) }
+   0.326066400s  INFO prepare_target{force=false package_id=num-conv v0.2.2 target="num_conv"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\num-conv-3bd668da007e8d97\lib-num_conv`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.327519800s  INFO prepare_target{force=false package_id=powerfmt v0.2.0 target="powerfmt"}: cargo::core::compiler::fingerprint: fingerprint error for powerfmt v0.2.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("powerfmt", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\powerfmt-0.2.0\\src\\lib.rs", Edition2021) }
+   0.327580200s  INFO prepare_target{force=false package_id=powerfmt v0.2.0 target="powerfmt"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\powerfmt-3e44aa33a8fa3098\lib-powerfmt`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.328807800s  INFO prepare_target{force=false package_id=time-core v0.1.9 target="time_core"}: cargo::core::compiler::fingerprint: fingerprint error for time-core v0.1.9/Check { test: false }/TargetInner { ..: lib_target("time_core", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\time-core-0.1.9\\src\\lib.rs", Edition2024) }
+   0.328856800s  INFO prepare_target{force=false package_id=time-core v0.1.9 target="time_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\time-core-5b05c94b60dfcf31\lib-time_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.330329500s  INFO prepare_target{force=false package_id=zstd v0.11.2+zstd.1.5.2 target="zstd"}: cargo::core::compiler::fingerprint: fingerprint error for zstd v0.11.2+zstd.1.5.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("zstd", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zstd-0.11.2+zstd.1.5.2\\src\\lib.rs", Edition2018) }
+   0.330446500s  INFO prepare_target{force=false package_id=zstd v0.11.2+zstd.1.5.2 target="zstd"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\zstd-13e98c18061892f8\lib-zstd`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.332637900s  INFO prepare_target{force=false package_id=zstd-safe v5.0.2+zstd.1.5.2 target="zstd_safe"}: cargo::core::compiler::fingerprint: fingerprint error for zstd-safe v5.0.2+zstd.1.5.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("zstd_safe", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zstd-safe-5.0.2+zstd.1.5.2\\src\\lib.rs", Edition2018) }
+   0.332783700s  INFO prepare_target{force=false package_id=zstd-safe v5.0.2+zstd.1.5.2 target="zstd_safe"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\zstd-safe-b07a88fd6227eaef\lib-zstd_safe`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.341505100s  INFO prepare_target{force=false package_id=zstd-sys v2.0.16+zstd.1.5.7 target="zstd_sys"}: cargo::core::compiler::fingerprint: fingerprint error for zstd-sys v2.0.16+zstd.1.5.7/Check { test: false }/TargetInner { doctest: false, ..: lib_target("zstd_sys", ["lib"], "C:\\Users\\HP\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zstd-sys-2.0.16+zstd.1.5.7\\src\\lib.rs", Edition2018) }
+   0.341578300s  INFO prepare_target{force=false package_id=zstd-sys v2.0.16+zstd.1.5.7 target="zstd_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\zstd-sys-f016670af3db242a\lib-zstd_sys`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.343149200s  INFO prepare_target{force=false package_id=Unzip_file v0.1.0 (C:\Users\HP\Desktop\Rust\Unzip_file) target="Unzip_file"}: cargo::core::compiler::fingerprint: fingerprint error for Unzip_file v0.1.0 (C:\Users\HP\Desktop\Rust\Unzip_file)/Check { test: true }/TargetInner { name: "Unzip_file", doc: true, ..: with_path("C:\\Users\\HP\\Desktop\\Rust\\Unzip_file\\src\\main.rs", Edition2024) }
+   0.343188900s  INFO prepare_target{force=false package_id=Unzip_file v0.1.0 (C:\Users\HP\Desktop\Rust\Unzip_file) target="Unzip_file"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\Desktop\Rust\Unzip_file\target\debug\.fingerprint\Unzip_file-8b6661ad5cee6306\test-bin-Unzip_file`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking typenum v1.20.1
+    Checking cfg-if v1.0.4
+    Checking subtle v2.6.1
+    Checking cpufeatures v0.2.17
+    Checking libc v0.2.186
+    Checking base64ct v1.8.3
+    Checking zstd-sys v2.0.16+zstd.1.5.7
+    Checking adler2 v2.0.1
+    Checking rand_core v0.6.4
+    Checking simd-adler32 v0.3.9
+    Checking crc32fast v1.5.0
+    Checking bzip2-sys v0.1.13+1.0.8
+    Checking zstd-safe v5.0.2+zstd.1.5.2
+    Checking num-conv v0.2.2
+    Checking miniz_oxide v0.8.9
+    Checking time-core v0.1.9
+    Checking powerfmt v0.2.0
+    Checking password-hash v0.4.2
+    Checking deranged v0.5.8
+    Checking bzip2 v0.4.4
+    Checking zstd v0.11.2+zstd.1.5.2
+    Checking byteorder v1.5.0
+    Checking constant_time_eq v0.1.5
+    Checking generic-array v0.14.7
+    Checking flate2 v1.1.9
+    Checking crypto-common v0.1.7
+    Checking block-buffer v0.10.4
+    Checking inout v0.1.4
+    Checking digest v0.10.7
+    Checking cipher v0.4.4
+    Checking time v0.3.49
+    Checking sha2 v0.10.9
+    Checking hmac v0.12.1
+    Checking sha1 v0.10.6
+    Checking aes v0.8.4
+    Checking pbkdf2 v0.11.0
+    Checking zip v0.6.6
+    Checking Unzip_file v0.1.0 (C:\Users\HP\Desktop\Rust\Unzip_file)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 8.08s

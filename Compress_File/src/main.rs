@@ -1,17 +1,24 @@
 // to import external crate extern is used
 extern crate flate2;
+
 // GzEncoder-a writer that compresses data using GZip format
 use flate2::write::GzEncoder;
+
 // Compression -> (a struct to control compression level) from the flate2 crate.
 use flate2::Compression;
+
 // args -> a function that returns an iterator over command-line arguments passed to the program.
 use std::env::args;
+
 // File -> Imports File for opening and creating files on the filesystem.
 use std::fs::File;
+
 // copy -> a utility function that reads from a source and writes all bytes into a destination.
 use std::io::copy;
+
 // BufReader -> fetches a big chunk of data from the file once, stores it in memory, and your program reads from that memory chunk instead of constantly hitting the disk.
 use std::io::BufReader;
+
 // Instant -> used for high-precision time measurement (like a stopwatch).
 use std::time::Instant;
 
